@@ -1,0 +1,78 @@
+.source-sans {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+    margin: 0 auto;
+}
+.container {
+    width: 375px;
+    padding: 10px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0 10px 10px 10px;
+}
+
+
+p {
+    margin: 8px 10px;
+}
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    height: 34px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.post-heading {
+    display: flex;
+}
+
+.poster-info {
+    padding-top: 10px;
+}
+
+.poster-info p {
+    margin: 0;
+}
+
+.post-img {
+    height: 375px; 
+}
+
+.icon-row {
+    width: 104.34px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 0 5px;
+}
+
+.icon {
+    height: 20px;
+}
+
+.icon:hover {
+    box-shadow:  0px 0px 5px black;	
+    cursor: pointer;
+}
